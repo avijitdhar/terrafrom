@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "terraforms-remote-state-bucket"
-    key    = "state-file-app"
+    bucket = "terraform-edfx-backup-state"
+    key = "state-file"
     region = "us-east-1"
   }
-
+}
